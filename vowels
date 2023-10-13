@@ -1,0 +1,9 @@
+s=input('enter a string : ')
+l=[]
+l1=['a','e','i','o','u','A','E','I','O','U']
+for ch in s:
+  if ch in l1:
+    l.append(ch)
+print('the vowels are: ')
+for i in l:
+  print(l)
